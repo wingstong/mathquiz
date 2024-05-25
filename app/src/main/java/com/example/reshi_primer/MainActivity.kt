@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity() {
         operand2 = findViewById(R.id.operand2)
         operator = findViewById(R.id.operator)
         answer = findViewById(R.id.answer)
-        check = findViewById<Button>(R.id.check)
-        start = findViewById<Button>(R.id.start)
+        check = findViewById(R.id.check)
+        start = findViewById(R.id.start)
 
         answer.isEnabled = false
         check.isEnabled = false
